@@ -12,9 +12,11 @@ body {
 }
 
 
-.nav-tabs li a {
-    color: #777;
+.navbar-nav li.active a {
+    color: #fff;
+    background-color:#29292c;
 }
+
 
 .container {
     padding: 80px 120px;
@@ -66,6 +68,10 @@ body {
     font-size: 30px;
     color: #fff;
     background-color: #333;
+}
+
+.nav-tabs li a {
+    color: #777;
 }
 
 
