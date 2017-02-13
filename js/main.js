@@ -7,7 +7,7 @@ $(document).ready(function() {
 function smoooth() {
         $(".navbar a, footer a[href='#home']").on('click', function(event){
             
-            if(this.hash !== "") {
+            if(this.hash !== "#") {
                 event.preventDefault();
                 
                 var hash = this.hash;
