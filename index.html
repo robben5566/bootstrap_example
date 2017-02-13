@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Band</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <!-- 最新編譯和最佳化的 CSS -->
+    <!-- 最新編譯和最佳化的 JavaScript -->
+</head>
+
+<body>
+    <div id="home"></div>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+               <a href="" class="navbar-brand">LOGO</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#band">BAND</a></li>
+                    <li><a href="#tour">TOUR</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MORE <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Merchandise</a></li>
+                            <li><a href="#">Extras</a></li>
+                            <li><a href="#">Media</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container-fluld">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+         <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/002.jpg" alt="Chania">
+                    <div class="carousel-caption">
+                        <h3>Star</h3>
+                        <p>Beautiful night.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/003.jpg" alt="Chania">
+                    <div class="carousel-caption">
+                        <h3>Hope</h3>
+                        <p>Please hold my hand.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="img/004.jpg" alt="Flower">
+                    <div class="carousel-caption">
+                        <h3>Go</h3>
+                        <p>I just wanna go.</p>
+                    </div>
+                </div>
+            </div>
+              <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    
+    <div id="band">
+        <div class="container text-center">
+            <h3>Pictute</h3>
+            <p><em>I Love tour!</em></p>
+            <p>This is some place I ever visited.</p>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <p><strong>A place</strong></p>
+                    <a href="#place1" data-toggle="collapse">
+                        <img src="img/005.jpg" alt="A" class="img-circle place">
+                    </a>
+                    <div id="place1" class="collapse">
+                        <p>Taipei</p>
+                        <p>101 is very high.</p>
+                        <p>2003</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p><strong>B place</strong></p>
+                    <a href="#place2" data-toggle="collapse">
+                        <img src="img/005.jpg" alt="B" class="img-circle place">
+                    </a>
+                    <div id="place2" class="collapse">
+                        <p>Taichung</p>
+                        <p>I love there.</p>
+                        <p>1993</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <p><strong>C place</strong></p>
+                    <a href="#place3" data-toggle="collapse">
+                        <img src="img/005.jpg" alt="C" class="img-circle place">
+                    </a>
+                    <div id="place3" class="collapse">
+                        <p>Yunlin</p>
+                        <p>I studied collage there.</p>
+                        <p>2012</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="tour">
+        <div class="container">
+            <h3 class="text-center">TOUR DATES</h3>
+            <p class="text-center"><em>Lorem ipsum we'll play you some music.
+                   Remember to book your tickets!</em></p>
+            <ul class="list-group">
+                <li class="list-group-item">September Sold Out! <span class="label label-danger">Sold Out!</span></li>
+                <li class="list-group-item">Octobor Sold Out! <span class="label label-danger">Sold Out!</span></li>
+                <li class="list-group-item">November 3<span class="badge">3</span></li>
+            </ul>
+            
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/101.jpg" alt="">
+                        <p><strong>Taipei</strong></p>
+                        <p>Fri. 27 November 2011</p>
+                        <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/102.jpg" alt="">
+                        <p><strong>Taichung</strong></p>
+                        <p>Sat. 28 November 2015</p>
+                        <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="img/103.jpg" alt="">
+                        <p><strong>Kaoshung</strong></p>
+                        <p>Sun. 29 November 2015</p>
+                        <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="glyphicon glyphicon-lock"></span> Tickets
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
+                            <input type="number" class="form-control" id="psw" placeholder="How many?">
+                        </div>
+                        <div class="form-group">
+                            <label for="username"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                            <input type="text" class="form-control" id="username" placeholder="Enter email">
+                        </div>
+                        <button type="submit" class="btn btn-block"> Pay <span class="glyphicon glyphicon-ok"></span></button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+                        <span class="glyphicon glyphicon-remove"></span> Cancel
+                    </button>
+                    <p>Need<a href="#"> help?</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contact">
+        <div class="container">
+            <h3 class="text-center">Contact</h3>
+            <p class="text-center"><em>We love our fans!</em></p>
+            
+            <div class="row contact-form">
+                <div class="col-sm-4">
+                    <p>Fan? Drop a note.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> Phone: +00 1515151515</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> Email: mail@mail.com</p>
+                </div>
+                <div class="col-sm-8">
+                    <form>
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <input type="text" class="form-control" id="name" placeholder="Name" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <textarea class="form-control" name="comments" id="comments" placeholder="Comment" rows="5"></textarea>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12 form-group">
+                                <button class="btn pull-right" type="submit">Send</div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <br>
+                <h3 class="text-center">From The Blog</h3>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#mike">Mike</a></li>
+                    <li><a data-toggle="tab" href="#chandler">Chandler</a></li>
+                    <li><a data-toggle="tab" href="#peter">Peter</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="mike" class="tab-pane fade in active">
+                        <h3>Mike Ross, Manager</h3>
+                        <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
+                    </div>
+                    <div id="chandler" class="tab-pane fade">
+                        <h3>Chandler Bing, Guitarist</h3>
+                        <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
+                    </div>
+                    <div id="peter" class="tab-pane fade">
+                        <h3>Peter Griffin, Bass player</h3>
+                        <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+    <!-- <div id="googleMap"></div> -->
+    
+    <footer class="text-center">
+        <a href="#home" class="up-arrow" data-toggle="tooltip" title="GO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <p>Bootstrap Theme Sample</p>
+        <br>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
